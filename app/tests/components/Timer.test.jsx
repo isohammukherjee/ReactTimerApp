@@ -29,7 +29,6 @@ describe('Timer', () => {
     var timer = TestUtils.renderIntoDocument(<Timer/>);
 
     timer.setState({count: 10});
-
     timer.handleStatusChange('started');
     timer.handleStatusChange('paused');
 
